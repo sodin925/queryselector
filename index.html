@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>測試</title>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script> -->
+  </head>
+
+  <body>
+    <!-- querySelector -->
+    <div id="div">
+      <h1 class="demo">123</h1>
+      <h1 class="demo">456</h1>
+      <button onclick="www()">1</button>
+      <button onclick="wwww()">2</button>
+    </div>
+
+    <script>
+      function www() {
+        var x = document.getElementById("div")
+        x.querySelector(".demo").innerHTML = "1";
+      }
+
+      function wwww() {
+        var x = document.getElementById("div")
+        x.querySelector(".demo").innerHTML = "2";
+      }
+    </script>
+
+
+    <!-- querySelectorAll
+    <h1 class="demo">EEEEEE</h1>
+    <h1 class="demo">RRRRR</h1>
+
+    <button onclick="www()">B</button>
+    <button onclick="wwww()">G</button>
+    <script>
+      function www() {
+        var x = document.querySelectorAll(".demo");
+        x[0].style.color = "red";
+      };
+
+      function wwww() {
+        var x = document.querySelectorAll(".demo");
+        x[1].style.color = "green";
+      };
+    </script> -->
+
+
+  </body>
+
+</html>
